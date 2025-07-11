@@ -1,36 +1,31 @@
 /* your code here */
-footer {
-  background: #111;
-  color: #fff;
-  padding: 40px 20px 0;
-  font-family: Arial, sans-serif;
+footer{
+	background-color: black;
+	color: white;
+	padding: 40px 20px 0;
 }
-
-.content {
-  max-width: 1200px;
-  margin: auto;
+.content{
+	max-width: 1200px;
+	margin: auto;
 }
-
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
 }
-
-.logo_name {
-  font-size: 30px;
-  font-weight: bold;
+.logo_name{
+	font-size: 30px;
+	font-weight: bold;
 }
-
 .media-icons a {
+	display: flex;
   color: white;
   font-size: 18px;
   margin-right: 15px;
   text-decoration: none;
   display: inline-block;
 }
-
 .link-boxes {
   display: flex;
   flex-wrap: wrap;
@@ -42,14 +37,12 @@ footer {
   width: 200px;
   margin-bottom: 20px;
 }
-
-.box .link_name {
-  font-size: 16px;
-  font-weight: bold;
-  border-bottom: 2px solid #fff;
-  margin-bottom: 10px;
+.box .link_name{
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 2px solid white;
+	margin-bottom: 10px;
 }
-
 .box li {
   list-style: none;
   margin: 8px 0;
@@ -61,7 +54,7 @@ footer {
 }
 
 .box a:hover {
-  color: #fff;
+  color: white;
 }
 
 .bottom-details {
@@ -78,31 +71,10 @@ footer {
   color: #ccc;
   text-decoration: none;
 }
+.policy_terms a{
+	align-items: left;
+} 
 
 .bottom_text a:hover {
   text-decoration: underline;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .top {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .link-boxes {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .box {
-    width: 90%;
-    text-align: center;
-  }
-
-  .bottom-details {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 }
